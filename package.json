@@ -1,0 +1,15 @@
+{
+  "name": "ts-react-node-monorepo-template",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev:client": "pnpm --filter ./apps/client dev",
+    "dev:server": "pnpm --filter ./apps/server dev",
+    "dev:packages": "pnpm --parallel run watch"
+  },
+  "author": "",
+  "packageManager": "pnpm@10.26.2",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
